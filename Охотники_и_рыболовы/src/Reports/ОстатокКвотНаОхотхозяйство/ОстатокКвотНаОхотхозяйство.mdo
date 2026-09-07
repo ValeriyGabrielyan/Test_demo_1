@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e90c4897-faee-4e43-b0fb-5058938bded2">
+  <producedTypes>
+    <objectType typeId="06108c65-5c17-49ad-88bf-91dbca531e86" valueTypeId="a0a0c359-e7f5-485e-832b-e1a64c0a927a"/>
+    <managerType typeId="3ef6b7a3-05a4-47dc-b9f8-af6c98012242" valueTypeId="0834959c-2e86-4f9d-866e-fdc47b68f794"/>
+  </producedTypes>
+  <name>ОстатокКвотНаОхотхозяйство</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остаток квот на охотхозяйство</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОстатокКвотНаОхотхозяйство.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ОстатокКвотНаОхотхозяйство.Template.ОстатокКвотНаОхотхозяйство</mainDataCompositionSchema>
+  <attributes uuid="c2e101fd-bcab-4893-9f95-e0c183d5b626">
+    <name>ФорматОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формат отчета</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="ecb49c64-3dff-4b9c-b269-a02750c9e675">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="acceccbb-7141-4e00-88ca-05f46120e5d3">
+    <name>ОстатокКвотНаОхотхозяйство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остаток квот на охотхозяйство</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

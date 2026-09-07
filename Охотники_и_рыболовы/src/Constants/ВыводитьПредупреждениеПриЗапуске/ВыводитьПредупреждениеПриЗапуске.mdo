@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a0aca75-0e52-43f4-85ee-76356ac4cc4b">
+  <producedTypes>
+    <managerType typeId="1fcfaf4e-b2af-441c-9271-5aace183255c" valueTypeId="ab7206e1-63ab-410e-a560-d212c6746e7f"/>
+    <valueManagerType typeId="1b0e9ce8-ba53-4a73-a96c-195233f721c9" valueTypeId="0c3e19b3-d2cd-4f8f-b43f-3bac3b52fb00"/>
+    <valueKeyType typeId="642dd72c-e932-5889-b3b2-8569ef0561bd" valueTypeId="514571f3-38f9-543b-8692-535d588069ce"/>
+  </producedTypes>
+  <name>ВыводитьПредупреждениеПриЗапуске</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выводить предупреждение при запуске</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

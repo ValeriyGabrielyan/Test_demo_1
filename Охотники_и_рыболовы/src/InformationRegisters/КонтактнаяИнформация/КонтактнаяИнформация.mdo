@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3fcf3ea-3748-47d7-9c5a-93213b435794">
+  <producedTypes>
+    <selectionType typeId="9fb5ae59-248e-464c-bbca-ecb9f2704a97" valueTypeId="58ad9837-9175-4868-91dd-d4e1168975c4"/>
+    <listType typeId="4222120e-61da-4631-9b1c-822ffe19d4b0" valueTypeId="0fcbed29-1587-4864-8fc3-c1aee455adad"/>
+    <managerType typeId="b5b437f9-0a62-4607-9178-708e77aa83f7" valueTypeId="2d5eb849-842a-4a78-a3e9-3fcd6981b31b"/>
+    <recordSetType typeId="a6a9b371-d0fd-4ef8-9505-2e17ca0c9c39" valueTypeId="152547bf-b01b-49f5-84b1-8667572090e7"/>
+    <recordKeyType typeId="6a14ccf9-cca4-4885-a708-c329d0b885ff" valueTypeId="3883482e-42e7-4448-b971-9fc1755c2dba"/>
+    <recordType typeId="a4cd46cc-a46c-44fb-8c25-37ab80417c15" valueTypeId="a3405a34-e8b1-45ff-8fd2-bf004abf04be"/>
+    <recordManagerType typeId="660f2d9a-a842-4e2b-a41b-c92e1ecb1972" valueTypeId="36c29f8a-7a18-480c-90d5-36ee9c062dd2"/>
+  </producedTypes>
+  <name>КонтактнаяИнформация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контактная информация</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="73fc9863-1f91-401a-baaf-8f8df6f56bde">
+    <name>Город</name>
+    <synonym>
+      <key>ru</key>
+      <value>Город</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="c024b8da-c8c2-43f1-a602-d108ef6bb23a">
+    <name>Улица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Улица</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="b66b71c9-9c20-49be-8aa9-b2d25525fa98">
+    <name>Дом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дом</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>5</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <resources uuid="f8d9cd01-ec49-4415-9f0e-a273188f4d28">
+    <name>Квартира</name>
+    <synonym>
+      <key>ru</key>
+      <value>Квартира</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>5</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <dimensions uuid="971045c2-3d77-4c0b-8181-9b3cccb280ef">
+    <name>Охотник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Охотник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Охотники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

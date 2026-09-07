@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd90e837-4ccf-410e-9f60-c6b6b0193476">
+  <producedTypes>
+    <selectionType typeId="a1f47136-bd60-4338-8e13-d955c67f1656" valueTypeId="62cd4a20-59f9-4e31-b2e0-baa2e2af2c65"/>
+    <listType typeId="824fc7f9-db23-45c8-91b3-839de191bd95" valueTypeId="e733fbd2-80bb-4f42-8828-9686e9554d13"/>
+    <managerType typeId="63497eaf-f03e-42ef-9ee8-3b4f932d333d" valueTypeId="05eafcc4-b7ca-4681-acc0-ae31b024f682"/>
+    <recordSetType typeId="53d89f31-55ab-4eb6-9f2d-0aef160d2e8c" valueTypeId="c4e9510a-b48f-4b9b-976c-ee5e0aaed5ac"/>
+    <recordKeyType typeId="2c0f005c-9db7-4355-8bad-52e7722795bc" valueTypeId="42491f04-677b-4d15-bf48-3fe866aaaccf"/>
+    <recordType typeId="54f4677f-5a33-4213-b945-b17308d7c6c3" valueTypeId="9dbf1367-2d0e-4a6a-a5eb-04e413133a7b"/>
+    <recordManagerType typeId="08c3fe2a-72ff-4aed-9c15-271054f55806" valueTypeId="d47c2b40-2a6d-4b8b-a463-75ee3084cade"/>
+  </producedTypes>
+  <name>ОграниченияДичиНаДобычу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ограничения дичи на добычу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Year</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="798229a0-013f-475a-9939-7d2f5b6e3995">
+    <name>КоличествоВДень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество в день</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="cf1b5e93-325e-4d8a-b859-d5cd65be9201">
+    <name>КоличествоЗаСезон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество за сезон</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="4cc8651a-4d99-4d51-944b-0a4719d528c4">
+    <name>Ограничено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ограничено</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="21b67f7a-4e94-4239-8329-27978bf7384b">
+    <name>КлючСвязи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ связи</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="3b150cbe-f811-45d5-be4b-8eff908a4390">
+    <name>СезонОхоты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сезон охоты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СезоныОхоты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d2fa17cc-3891-4963-acd7-a506f6c7de52">
+    <name>ВидДичи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид дичи</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыДичи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b72ba889-0b4f-4a7d-878a-f1be22fc4a06">
+    <name>Дичь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дичь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппыДичи</types>
+      <types>CatalogRef.Дичь</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="55a33045-4aab-47c5-bde4-e5c4ba2dd2e8">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4f568086-c393-43aa-a74a-e228d2cc0d43">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

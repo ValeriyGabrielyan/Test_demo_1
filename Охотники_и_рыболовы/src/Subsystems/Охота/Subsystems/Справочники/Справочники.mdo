@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ca574a7-7ba4-440f-9b03-288a0c27d31a">
+  <name>Справочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Охотники</content>
+  <content>Catalog.СезоныОхоты</content>
+  <content>Catalog.Охотхозяйства</content>
+  <content>Catalog.ВидыДичи</content>
+  <content>Catalog.Дичь</content>
+  <content>Catalog.СубъектыРФ</content>
+  <content>Catalog.Сотрудники</content>
+  <content>Catalog.ГруппыДичи</content>
+  <content>Catalog.ОрганыВыдачиГосБилетов</content>
+  <content>Catalog.ОтчетныеВидыДичи</content>
+  <parentSubsystem>Subsystem.Охота</parentSubsystem>
+</mdclass:Subsystem>

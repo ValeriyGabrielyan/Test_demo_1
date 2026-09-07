@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c754ccd8-b934-454c-8a4d-78c78ff93c32">
+  <name>Некорректно</name>
+  <synonym>
+    <key>ru</key>
+    <value>Некорректно</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorDef">
+      <red>195</red>
+      <green>42</green>
+      <blue>42</blue>
+    </value>
+  </value>
+</mdclass:StyleItem>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24167266-4186-46e4-bfdb-ec43227e8df9">
+  <producedTypes>
+    <selectionType typeId="151cbc92-e61e-4b5c-8280-0454a479f0a2" valueTypeId="2ffc8bfb-dee9-4df2-aa09-cbbb7adb28b2"/>
+    <listType typeId="0a8a40cb-77e5-485f-b33f-b7233c039c9d" valueTypeId="bb64f9e5-ae17-4b0f-8cfc-2bc808616b79"/>
+    <managerType typeId="51c9029c-7086-4f86-a163-5139444ccb7a" valueTypeId="926037b5-6d56-4383-8a4d-29e2fa49e5d9"/>
+    <recordSetType typeId="93ac03b1-54ab-4cd4-80e8-08fb0b3ebd5d" valueTypeId="53687478-f516-4c9c-8f71-d996f00cb7a8"/>
+    <recordKeyType typeId="900a89ee-c9ff-47b6-b989-ad31ed7a4489" valueTypeId="bf569c69-24e3-43ae-84ec-83f05b5871b9"/>
+    <recordType typeId="38b13eda-1300-48af-819d-eba896cd50e5" valueTypeId="ee58e764-82c9-40cd-b44e-12e299f92cbc"/>
+  </producedTypes>
+  <name>ДобытаяДичь</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добытая дичь</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="d79c7119-fc19-4e2b-9650-0d26ed5a43a2">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="5d5d8df0-df51-454c-9c49-7d7ad8c1caca">
+    <name>Охотник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Охотник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Охотники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="f145fcdf-b971-49b3-b348-910dd76163c5">
+    <name>МестоОхоты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место охоты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Охотхозяйства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="5a2a933b-f048-402e-868d-c6717d891877">
+    <name>Дичь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дичь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Дичь</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

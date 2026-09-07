@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d5f318c-8525-494e-8b45-ce1d7992ed66">
+  <producedTypes>
+    <objectType typeId="4a230a84-869d-4a60-8757-c14169d2b505" valueTypeId="2e947651-e394-4ce6-a306-de3be46fc5e0"/>
+    <refType typeId="8279836f-c0dd-496b-a6c6-843baf41072b" valueTypeId="79d3ba68-b524-4fcf-9911-1c38bed92fab"/>
+    <selectionType typeId="7640c4a4-c368-4fe7-9289-ff3cfae35be1" valueTypeId="292c34a4-3533-460a-809d-968c91b03f01"/>
+    <listType typeId="140729d1-4c93-4f02-ae08-64d1d0646310" valueTypeId="f25fb70c-4a2b-45ba-a724-15126c480cdf"/>
+    <managerType typeId="f2087fb7-b4c4-4388-99f8-b4732242928c" valueTypeId="81350d15-e5b1-48af-a63b-c847c56dec13"/>
+  </producedTypes>
+  <name>СубъектыРФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Субъекты РФ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СубъектыРФ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СубъектыРФ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="481d3eb6-477f-43ba-a34c-7b50843024a9">
+  <producedTypes>
+    <selectionType typeId="0c9e33a6-c64c-4457-861d-0b112e60f89b" valueTypeId="7fd495a6-eb3c-4556-bd56-1feb074e20e3"/>
+    <listType typeId="3f2432ce-ba1d-4533-86d4-7143fe86cf04" valueTypeId="67c6c522-9797-4127-a410-bc09824478d4"/>
+    <managerType typeId="08376c27-0ad3-4f6d-b7f4-61254b6efddc" valueTypeId="f12f4abd-8f24-4667-96da-f690e5e3397d"/>
+    <recordSetType typeId="25204e76-81b6-40cf-ad83-c28ad9f76bd6" valueTypeId="6e86fcaa-22aa-488a-8e41-cd52bc73b5e3"/>
+    <recordKeyType typeId="9f8182dd-5527-454a-a94a-28d38685546b" valueTypeId="907309e2-8992-4ccd-a8cd-e06edc5b4d92"/>
+    <recordType typeId="38301013-1aae-42cb-a089-6150296c1ae4" valueTypeId="861d13dc-5440-4c79-8e36-c66378b09d3f"/>
+    <recordManagerType typeId="934eaa7e-346c-4d23-87af-8b36dea22e91" valueTypeId="a90722d3-d264-4ed3-89c9-2e5981759092"/>
+  </producedTypes>
+  <name>Ограничение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ограничение</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>ОграничениеДичи</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>ОграничениеДичи</value>
+  </extendedRecordPresentation>
+  <dimensions uuid="d8ed95ed-bbe2-4d88-8c6c-e9dd86419c67">
+    <name>СезонОхоты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сезон охоты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СезоныОхоты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0cd46fb4-721f-4ca8-ac7e-ec91ae1046ac">
+    <name>Охотхозяйство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Охотхозяйство</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Охотхозяйства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.ЧленствоККОООР</name>
+      <value xsi:type="core:BooleanValue">
+        <value>true</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="144d316e-64c1-40e4-93ea-6b215f5572ef">
+    <name>Дичь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дичь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Дичь</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <forms uuid="18f3a65e-e9fb-479f-baf4-e5abd3e97233">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

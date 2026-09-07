@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="029ade43-59a4-445c-a09e-d546bd2fc0d4">
+  <producedTypes>
+    <selectionType typeId="0e26663b-8718-4252-8311-c15525756769" valueTypeId="50b6178f-eea3-42d7-b1f9-2c062bf6b2c3"/>
+    <listType typeId="ce8dceb1-36db-43b1-bf59-30a905052435" valueTypeId="843fbec9-28f7-4a9f-b92d-e1bf48181ef7"/>
+    <managerType typeId="e1d6cea7-53fe-459a-9fd5-ddd61d1bb303" valueTypeId="efea8cab-f5cd-4ddf-bad9-06d8b8255de6"/>
+    <recordSetType typeId="7f7d414e-c20b-4139-8d0c-3cb36705380f" valueTypeId="f5342d6f-e402-45a6-a24d-14ae43b44b15"/>
+    <recordKeyType typeId="ddd9c8f2-7148-4d0d-a9b2-2f6c9a0fbf70" valueTypeId="1b4ece19-2c18-4a8a-aa7b-694765c12ea7"/>
+    <recordType typeId="20b7da1a-2028-497f-9e64-c7ad1de45618" valueTypeId="6e0fc0d0-4ca7-4f97-81f0-b29c0b4df399"/>
+    <recordManagerType typeId="b6eee8f0-ac53-44f6-9e99-9c9acd2189a8" valueTypeId="831e0ba9-dfc3-49f2-90ee-aa9818309ac1"/>
+  </producedTypes>
+  <name>ЦеныПоВидамДичи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цены по видам дичи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Year</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="422e86e5-6be7-4326-b45a-e82ec714b164">
+    <name>ЦенаСвоимРазовая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена своим разовая</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3c1307d3-1dac-4ceb-b339-f46ef766007c">
+    <name>ЦенаСвоимСезонная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена своим сезонная</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="51dd6161-79de-4405-a7e6-691d3c7d473c">
+    <name>ЦенаЧужимРазовая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена чужим разовая</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d4babb6b-f065-4347-9cc6-f67d2ed3ae86">
+    <name>ЦенаЧужимСезонная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена чужим сезонная</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c11080cc-2e71-44c4-85c7-0756bbda1fcc">
+    <name>ТолькоГосБилетРазовая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только гос билет разовая</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="91dfd53b-0175-4be3-8617-f0b5074bd002">
+    <name>ТолькоГосБилетСезонная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только гос билет сезонная</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ba1d0c05-4188-4bfb-a31a-f8506215d51f">
+    <name>ЦенаШтатнымСотрудникам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена штатным сотрудникам</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5791eb85-d42e-45e0-9789-eb0756593402">
+    <name>ЦенаВетеранамВойны</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена ветеранам войны</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="86ba9cab-201d-4e5e-9ab4-209d4067c7d6">
+    <name>ЦенаИнвалидамПервойГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена инвалидам первой группы</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d25c6a2d-eff9-4398-9ad5-9004ed27265e">
+    <name>ЦенаПослеВозрастногоПорога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена после возрастного порога</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e0872b97-ab7e-419f-9638-cb5ab05d86e0">
+    <name>ТолькоСезонная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только сезонная</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="eaab9654-d8a7-459c-a140-2155af2f33c6">
+    <name>ДействиеОсобыхЦен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действие особых цен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="8048b1af-ce61-4e81-9906-223b8869caff">
+    <name>КлючСвязи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ связи</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="9fa14a79-bbb3-414d-82f5-4c295c7287d4">
+    <name>СезонОхоты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сезон охоты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СезоныОхоты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c7e2a4f9-5c53-456c-a245-6ce81b694768">
+    <name>ВидДичи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид дичи</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыДичи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="81793522-d49d-4e38-8d2e-c36640d634fc">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6d50f9b9-b7c3-4d35-b621-4cc5458711f0">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

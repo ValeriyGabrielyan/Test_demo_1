@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af676d04-5ca3-4101-8072-1134d050711a">
+  <producedTypes>
+    <refType typeId="1071b6fa-e723-4a92-80de-237b7bd02bfc" valueTypeId="b8a2fefb-56e6-4d1f-bc22-6b8ceae0b086"/>
+    <listType typeId="7016c46d-0abe-435a-a6b8-c4b5129da4e4" valueTypeId="506fd65e-1766-4a6f-ae13-e2d0d673a77c"/>
+    <managerType typeId="8c39b4c4-a68f-4cf7-ba44-233fecd1213d" valueTypeId="9f9655dd-bfcc-419f-91f5-eebcb8c8c615"/>
+  </producedTypes>
+  <name>ВидыДнейПроизводственногоКалендаря</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды дней производственного календаря</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d3081da0-f7c0-46b0-a750-3b76c6b61622">
+    <name>Рабочий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b2e26cdd-ab36-4cd4-985b-2f23dd0ab989">
+    <name>Суббота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Суббота</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9e511822-6437-48a3-a14a-5f371ee4e246">
+    <name>Воскресенье</name>
+    <synonym>
+      <key>ru</key>
+      <value>Воскресенье</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="78a00beb-4c04-4a46-a71f-2b47b549d21c">
+    <name>Предпраздничный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предпраздничный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4dec295c-ec1b-4bc8-8f23-7cce52e6737a">
+    <name>Праздник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Праздник</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

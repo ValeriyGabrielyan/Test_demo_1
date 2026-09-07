@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c019a96-7197-4dc8-ba3d-8117a44a39aa">
+  <name>ЛюбительскаяИСпортивнаяОхота</name>
+  <synonym>
+    <key>ru</key>
+    <value>Любительская и спортивная охота</value>
+  </synonym>
+  <comment>Любительская и спортивная охота</comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="ae1b6fac-d06f-44a2-9ddb-7511f1b3ee0f"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="9a8f7b94-3973-466f-a885-91a8d92390ea"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="d48177ef-61f2-401c-ac59-78340a49bfe6"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="aee9ccdb-9ee7-4edf-873d-8a0be56ffdb7"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="b38db426-3dcc-4818-9008-966aeff6e588"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="3d286e17-8d3d-4666-afe6-c596ef0a5cee"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="102547ce-871a-489b-a926-26e566e5227c"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.ПолныеПрава</defaultRoles>
+  <vendor>ООО &quot;КТ&quot;</vendor>
+  <version>3.0.1.3</version>
+  <useManagedFormInOrdinaryApplication>true</useManagedFormInOrdinaryApplication>
+  <useOrdinaryFormInManagedApplication>true</useOrdinaryFormInManagedApplication>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <clientApplicationWindowsOpenVariant>OpenDataInDialogs</clientApplicationWindowsOpenVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <briefInformation>
+    <key>ru</key>
+    <value>Любительская и спортивная охота 3.0.1.1</value>
+  </briefInformation>
+  <detailedInformation>
+    <key>ru</key>
+    <value>Любительская и спортивная охота 3.0.1.1</value>
+  </detailedInformation>
+  <copyright>
+    <key>ru</key>
+    <value>ООО &quot;КТ&quot;</value>
+  </copyright>
+  <vendorInformationAddress>
+    <key>ru</key>
+    <value>Краснодарский край, ст.Динская, ул.Красная</value>
+  </vendorInformationAddress>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.6</compatibilityMode>
+  <languages uuid="4141c669-3420-454d-9b88-7e575cfa4cb8">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Охота</subsystems>
+  <subsystems>Subsystem.Сервис</subsystems>
+  <subsystems>Subsystem.Администрирование</subsystems>
+  <styleItems>StyleItem.РабочийЦвет</styleItems>
+  <styleItems>StyleItem.СубботаЦвет</styleItems>
+  <styleItems>StyleItem.ВоскресеньеЦвет</styleItems>
+  <styleItems>StyleItem.ПредпраздничныйЦвет</styleItems>
+  <styleItems>StyleItem.ПраздникЦвет</styleItems>
+  <styleItems>StyleItem.Некорректно</styleItems>
+  <styleItems>StyleItem.Корректно</styleItems>
+  <styleItems>StyleItem.НедоступныеДанныеЦвет</styleItems>
+  <commonPictures>CommonPicture.ПодсистемаОхота</commonPictures>
+  <commonPictures>CommonPicture.ПодсистемаСервис</commonPictures>
+  <commonPictures>CommonPicture.ДлительнаяОперация48</commonPictures>
+  <sessionParameters>SessionParameter.АвторизованныйПользователь</sessionParameters>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
+  <sessionParameters>SessionParameter.ПервыйЗапуск</sessionParameters>
+  <roles>Role.АдминистраторСистемы</roles>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.Пользователь</roles>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОхотаСервер</commonModules>
+  <commonModules>CommonModule.ОхотаСерверПовтИсп</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
+  <commonModules>CommonModule.ОхотаВызовСервера</commonModules>
+  <commonModules>CommonModule.ОхотаСлужебный</commonModules>
+  <commonModules>CommonModule.ОхотаКлиент</commonModules>
+  <commonModules>CommonModule.ПолнотекстовыйПоискСервер</commonModules>
+  <scheduledJobs>ScheduledJob.СлияниеИндексаППД</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ОбновлениеИндексаППД</scheduledJobs>
+  <commandGroups>CommandGroup.Печать</commandGroups>
+  <constants>Constant.ТекущийСезон</constants>
+  <constants>Constant.ДнейОжиданияВозвратаРазрешения</constants>
+  <constants>Constant.ГоловноеПредприятие</constants>
+  <constants>Constant.ВыводитьПредупреждениеПриЗапуске</constants>
+  <constants>Constant.ВозрастнойПорогЛьготнойСтоимости</constants>
+  <constants>Constant.ОбязательныеРеквизитыРазрешенияДляЕгеря</constants>
+  <commonForms>CommonForm.ТекущийСезон</commonForms>
+  <commonForms>CommonForm.ФормаПечати</commonForms>
+  <commonForms>CommonForm.ВыборДаты</commonForms>
+  <commonForms>CommonForm.ФормаНастройкиОбязательныхРеквизитов</commonForms>
+  <commonForms>CommonForm.ДлительнаяОперация</commonForms>
+  <commonForms>CommonForm.ФормаПечатиСправочники</commonForms>
+  <catalogs>Catalog.ВидыДичи</catalogs>
+  <catalogs>Catalog.ГруппыДичи</catalogs>
+  <catalogs>Catalog.Дичь</catalogs>
+  <catalogs>Catalog.Должности</catalogs>
+  <catalogs>Catalog.ОрганыВыдачиГосБилетов</catalogs>
+  <catalogs>Catalog.Охотники</catalogs>
+  <catalogs>Catalog.Охотхозяйства</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.ПроизводственныеКалендари</catalogs>
+  <catalogs>Catalog.СезоныОхоты</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.СубъектыРФ</catalogs>
+  <catalogs>Catalog.ОтчетныеВидыДичи</catalogs>
+  <documents>Document.УстановкаОбщихКвот</documents>
+  <documents>Document.УстановкаКвотНаОхотхозяйство</documents>
+  <documents>Document.РазрешениеНаОхоту</documents>
+  <documents>Document.ПутевкаДоговор</documents>
+  <documents>Document.УстановкаОграниченийИЦен</documents>
+  <documents>Document.Заявление</documents>
+  <documents>Document.УстановкаНеучтеннойДичи</documents>
+  <enums>Enum.ВидыОхотничьихБилетов</enums>
+  <enums>Enum.ПричиныНедействительностиБилета</enums>
+  <enums>Enum.ВидыДнейПроизводственногоКалендаря</enums>
+  <enums>Enum.ТипыПользователей</enums>
+  <enums>Enum.УстановленныеДниОхоты</enums>
+  <reports>Report.ОстатокКвотНаОхотхозяйство</reports>
+  <reports>Report.ВыдачаРазрешений</reports>
+  <reports>Report.ПродажаПутевок</reports>
+  <reports>Report.ОтчетПоНесдавшимРазрешенияДни</reports>
+  <reports>Report.ДобытаяДичь</reports>
+  <reports>Report.ОтчетПоНесдавшимРазрешенияСезон</reports>
+  <reports>Report.ОтчетПоНесдавшимРазрешения</reports>
+  <dataProcessors>DataProcessor.УстановкаСезонаОхоты</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаДанныхОхотников</dataProcessors>
+  <dataProcessors>DataProcessor.КорректировкаДанныхОхотников</dataProcessors>
+  <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
+  <dataProcessors>DataProcessor.ПоискИЗаменаДублирующихсяЭлементов</dataProcessors>
+  <informationRegisters>InformationRegister.ДанныеПроизводственногоКалендаря</informationRegisters>
+  <informationRegisters>InformationRegister.НастройкиПользователей</informationRegisters>
+  <informationRegisters>InformationRegister.ОграниченияДичиНаДобычу</informationRegisters>
+  <informationRegisters>InformationRegister.ОхотничьиБилеты</informationRegisters>
+  <informationRegisters>InformationRegister.СотрудникиПользователя</informationRegisters>
+  <informationRegisters>InformationRegister.УстановленныеДатыСезонаОхоты</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныПоВидамДичи</informationRegisters>
+  <informationRegisters>InformationRegister.КонтактнаяИнформация</informationRegisters>
+  <informationRegisters>InformationRegister.Ограничение</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОбщиеКвотыНаОхотхозяйство</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.КвотыОхотхозяйства</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ПродажаПутевок</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВыдачаРазрешений</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ДобытаяДичь</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.НастройкиПользователей</chartsOfCharacteristicTypes>
+</mdclass:Configuration>

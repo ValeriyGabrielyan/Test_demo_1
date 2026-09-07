@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c3723d8-d07a-4a05-8429-5b4a037e9af2">
+  <producedTypes>
+    <managerType typeId="0a1ce1fa-ab50-4c38-8900-bb15e33abb7e" valueTypeId="5392d66c-c0c0-4217-bba3-4cbaba291170"/>
+    <valueManagerType typeId="cfc5bc29-5656-4662-a8ff-b6e06f3d904b" valueTypeId="ec5413ae-7ff5-4ef9-889b-797012e8a31a"/>
+    <valueKeyType typeId="977bed56-0436-58bb-a62e-7e9ac4d8dca8" valueTypeId="6fab21fd-1c1a-5edf-a96d-9e8594f1f84c"/>
+  </producedTypes>
+  <name>ВозрастнойПорогЛьготнойСтоимости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Возрастной порог льготной стоимости</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>2</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

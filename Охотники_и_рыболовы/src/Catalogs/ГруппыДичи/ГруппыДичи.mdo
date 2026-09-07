@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80ddf65a-546b-43ba-a84d-539c2a2d4e22">
+  <producedTypes>
+    <objectType typeId="28a99c40-9389-4c58-8d92-a460e26cfdd5" valueTypeId="73491685-1430-4511-b180-eece332d1553"/>
+    <refType typeId="2606ed07-7307-4fe0-964a-8ec7f0aba1b0" valueTypeId="ce80f178-4caf-40d8-a09d-5da4886e743b"/>
+    <selectionType typeId="4027857d-ff83-4fd9-b2bb-8154ac44caf7" valueTypeId="60f8f936-5ced-4ed1-b1e7-d836f49e2e75"/>
+    <listType typeId="39e0064c-c56a-4f96-99d9-0eceb950c866" valueTypeId="c94d407c-841c-4963-8369-46daf42ad641"/>
+    <managerType typeId="1065c342-0e11-4e85-98a5-4e90bb4ee327" valueTypeId="29c4cbcb-40fe-40be-9f27-e440db4b1e86"/>
+  </producedTypes>
+  <name>ГруппыДичи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы дичи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ГруппыДичи.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ГруппыДичи.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>40</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ГруппыДичи.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="29106b39-412f-4f48-8fd4-c45ddec036da">
+    <name>ВидДичи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид дичи</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыДичи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="64bc0cac-8b26-491a-ac3b-cfa6feb38d8c">
+    <producedTypes>
+      <objectType typeId="6a237d34-843f-4dff-bd77-f11d03fa91ff" valueTypeId="ae5eba98-e627-45c6-a728-f27514d8e09a"/>
+      <rowType typeId="77090a7b-7ef3-4166-b705-9298ba6d1e57" valueTypeId="410b9e20-4c2d-47fe-8cd8-e709edde66b3"/>
+    </producedTypes>
+    <name>Состав</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав</value>
+    </synonym>
+    <attributes uuid="c557213a-97ef-47f5-89cc-b4fd154a585a">
+      <name>Дичь</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дичь</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Дичь</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="d8c91282-b4d0-43e9-8f07-130622cdce32">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

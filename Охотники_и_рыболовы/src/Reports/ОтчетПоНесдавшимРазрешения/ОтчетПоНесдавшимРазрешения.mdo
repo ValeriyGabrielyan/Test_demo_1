@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8c741ed-7aae-4dbf-affa-31cf1997174c">
+  <producedTypes>
+    <objectType typeId="0d9a55ba-3340-4550-9524-bc6b0469c039" valueTypeId="a4b4a935-52bc-4526-86ea-a499e603a5ca"/>
+    <managerType typeId="e69d318e-f363-4116-8d7d-4442b1cb96ef" valueTypeId="52b7a649-9f77-4461-a469-d7369848b220"/>
+  </producedTypes>
+  <name>ОтчетПоНесдавшимРазрешения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по несдавшим разрешения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчетПоНесдавшимРазрешения.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ОтчетПоНесдавшимРазрешения.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>Report.ОтчетПоНесдавшимРазрешения.Form.ФормаНастроек</defaultSettingsForm>
+  <attributes uuid="b4b9c162-fdb7-4454-8c3c-2c4efdc9f55b">
+    <name>Охотхозяйство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Охотхозяйство</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Охотхозяйства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="2d70b3a8-6dd6-4a60-ba01-a6fd18f5f8b7">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cb4a0d1e-6488-4d29-8179-16ba9f71d8d4">
+    <name>ФормаНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a3f21447-3515-4750-9733-8f72ee39094c">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

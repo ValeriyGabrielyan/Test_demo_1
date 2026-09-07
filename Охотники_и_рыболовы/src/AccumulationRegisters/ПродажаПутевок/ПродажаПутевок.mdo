@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94571ed8-01a1-4f76-9eb4-35363183e478">
+  <producedTypes>
+    <selectionType typeId="66964a42-4b8c-481c-8ea8-fec723860a61" valueTypeId="77d5805b-e695-4f91-8a79-b4e7e4a53a08"/>
+    <listType typeId="07631495-4ea6-448f-bd0c-104916cf6396" valueTypeId="4cdf5dd9-6632-495f-b65d-94bbd4e667cb"/>
+    <managerType typeId="492745f5-8056-4988-8d15-770895b3ba78" valueTypeId="b0b872a0-8f2c-42af-872d-3e93e0bf6aa1"/>
+    <recordSetType typeId="4c534120-7643-4ae8-8b70-b1e633cc280b" valueTypeId="38daf212-e4c1-4247-a6b4-13e2282706b3"/>
+    <recordKeyType typeId="59f8bd8d-816d-47eb-a738-3d9e3aedcd49" valueTypeId="5acd47c0-ae30-4363-b490-7a468fd39137"/>
+    <recordType typeId="6a63e36c-96dc-464a-8e69-16bd4a252d5d" valueTypeId="fa1c6947-b3e8-41e1-a641-4033158e893c"/>
+  </producedTypes>
+  <name>ПродажаПутевок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажа путевок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="c4888785-21a2-48da-83ec-5f2ee854c1bc">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="74cd17ac-1d8d-4f3d-b605-18ff659234b9">
+    <name>Серия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="e9a35668-8502-4a6a-ad4a-bf55736a629b">
+    <name>Номер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>7</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="84a47a07-af56-4302-934e-655b5e0185f0">
+    <name>ПериодОхоты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период охоты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="0a7a4892-7573-426b-bc18-32b999f52c62">
+    <name>Исполнитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="10f225de-52a4-47d5-b4be-0e42ced57efd">
+    <name>СезонОхоты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сезон охоты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СезоныОхоты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="9fde80c5-d03c-43a8-98db-8929928a6fc9">
+    <name>Охотхозяйство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Охотхозяйство</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Охотхозяйства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="e4a3175a-d04c-4bcc-a6af-4cc42bff2667">
+    <name>МестоОхоты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место охоты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Охотхозяйства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="45c223ea-f780-4182-a677-a4a8da7291e6">
+    <name>ВидДичи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид дичи</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыДичи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="8ded883d-3306-4bdd-ade7-d62e0091fb2b">
+    <name>ОтчетныйВидДичи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчетный вид дичи</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОтчетныеВидыДичи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

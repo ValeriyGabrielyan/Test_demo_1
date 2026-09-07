@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="296b9339-3b64-4904-bb5a-e119e1a56dac">
+  <producedTypes>
+    <objectType typeId="45c26cd2-58c1-443f-8e56-9454bdc06f43" valueTypeId="81274f17-717d-4dea-b1cd-be659dcbcb56"/>
+    <managerType typeId="a32bb0ca-97c8-4cee-8041-d3e90bbe3109" valueTypeId="eb31c434-455c-4bbe-87d3-b5aafe7232ef"/>
+  </producedTypes>
+  <name>ОтчетПоНесдавшимРазрешенияДни</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по несдавшим разрешения дни</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчетПоНесдавшимРазрешенияДни.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ОтчетПоНесдавшимРазрешенияДни.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>Report.ОтчетПоНесдавшимРазрешенияДни.Form.ФормаНастроек</defaultSettingsForm>
+  <attributes uuid="dfb1fba8-1645-4bde-b7a4-fed2e7aeef37">
+    <name>Охотхозяйство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Охотхозяйство</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Охотхозяйства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e716c92c-cd5a-443a-a482-28ce517c131b">
+    <name>ДнейОжидания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дней ожидания</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="242ccc1e-0d6a-4a6e-b720-bfe45398c3e8">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bfa34a69-3b9c-4504-a374-2441fe5483db">
+    <name>ФормаНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="f5b00f04-f58a-4aaf-ab5b-aa39e4845eab">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

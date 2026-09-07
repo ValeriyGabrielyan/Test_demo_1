@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="edc14fb2-5176-4477-bfa8-a67a8cb0d793">
+  <producedTypes>
+    <refType typeId="8ea0f0b3-b6c6-4096-b138-859ce0ce964c" valueTypeId="4713b6ff-9349-47d2-96f5-064917ae7e12"/>
+    <listType typeId="69060b98-1be4-48e7-8718-d7ded4747e96" valueTypeId="a5071843-f643-4ac4-ad0e-a396e61781aa"/>
+    <managerType typeId="06988aef-751e-481f-8c20-8ca4f0f6c123" valueTypeId="b034b949-710d-406c-b3e0-f7c2f0d3357f"/>
+  </producedTypes>
+  <name>УстановленныеДниОхоты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установленные дни охоты</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2ad29bc2-481f-4840-9f2c-8b47f77fd27a">
+    <name>СбВсПн</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сб, Вс, Пн, праздничные дни</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fd27ac04-bc82-4847-84e5-4dcdd12b0e45">
+    <name>СбВсПнВтСр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сб, Вс, Пн, Вт, Ср, праздничные дни</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ffc600b-99c1-49e9-99df-8f754098a062">
+  <producedTypes>
+    <objectType typeId="1b1bf4c0-f4c4-4ca4-89bc-63f3de356c94" valueTypeId="7e8dfc23-7937-491d-b9a6-9a01695ff9d9"/>
+    <refType typeId="449e6c28-190a-4820-9688-3f50e21af3e8" valueTypeId="f828ae98-ee0e-4449-974d-5f0688f9c0d8"/>
+    <selectionType typeId="74958de1-f4e2-41c4-b991-d2dc1d14f52c" valueTypeId="df22a1bb-0f33-432b-a671-d0a6d38fca8a"/>
+    <listType typeId="84d110e1-83ae-4b6b-bebc-7cefa5aed918" valueTypeId="3553a31b-f37c-4549-8653-67fa2b2025e1"/>
+    <managerType typeId="2f396e3c-dd17-4af8-b579-e7dc241c26bc" valueTypeId="cebd5523-f566-460f-9d94-d1fcc83e9d4d"/>
+  </producedTypes>
+  <name>ОрганыВыдачиГосБилетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Органы выдачи гос билетов</value>
+  </synonym>
+  <comment>Компетентные органы исполнительной власти субъекта РФ </comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ОрганыВыдачиГосБилетов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ОрганыВыдачиГосБилетов.Attribute.НомерПодразделения</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="98913a9f-e25c-4b3c-8d98-9851e691e468">
+    <name>НаименованиеПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование полное</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d986f32c-0107-43c7-88c4-90b4fc061d36">
+    <name>НомерПодразделения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер подразделения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <quickChoice>Use</quickChoice>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

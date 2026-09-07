@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46e69b2a-eeff-439e-9643-f3ccb0dfd730">
+  <producedTypes>
+    <objectType typeId="48d42a85-41ed-4a06-a976-241bf0864add" valueTypeId="75670366-20ed-441c-93b9-f3f324387846"/>
+    <managerType typeId="bd1fbbe3-5caf-4212-a8b7-0dcd05b22cf3" valueTypeId="18c55a2f-be3f-41ea-9b91-3ff671f24a23"/>
+  </producedTypes>
+  <name>КорректировкаДанныхОхотников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Корректировка данных охотников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КорректировкаДанныхОхотников.Form.Форма</defaultForm>
+  <forms uuid="cefbb2de-0ff9-4bd9-9341-b1921c2f731a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

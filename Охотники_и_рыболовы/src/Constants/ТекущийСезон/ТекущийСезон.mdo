@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="746a7ce7-d3c3-47e4-9c1d-1b3977058215">
+  <producedTypes>
+    <managerType typeId="a67f282c-9c06-4afb-8df2-ba0ee04562b8" valueTypeId="a75f5498-2cdd-4bfe-b30f-fc4b3787e351"/>
+    <valueManagerType typeId="c084b995-96cf-40c5-9055-6367c0710971" valueTypeId="b42c517d-ab3e-41d2-96de-f420c5d6f827"/>
+    <valueKeyType typeId="b2a2038c-0828-5754-a6e0-e73e74bcdd50" valueTypeId="5a9d42a4-1c3a-5728-8ea3-6ab9f4af121a"/>
+  </producedTypes>
+  <name>ТекущийСезон</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текущий сезон</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.СезоныОхоты</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ТекущийСезон</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

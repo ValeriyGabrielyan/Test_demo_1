@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4ac0ec2-db88-4ab1-b2ba-d4be301d9483">
+  <producedTypes>
+    <managerType typeId="60cbee40-290f-4e05-8fb1-63916c0b895f" valueTypeId="a293dddd-fd19-4eb7-81c6-abfe91adf35b"/>
+    <valueManagerType typeId="c2861d21-f5de-4895-94b9-26205bf56956" valueTypeId="07773822-4603-44b6-99cc-846271f833cc"/>
+    <valueKeyType typeId="f48462fd-9623-575f-867a-671a069c6057" valueTypeId="d6d0d209-ce58-5539-bb98-3f55edb6e4ee"/>
+  </producedTypes>
+  <name>ГоловноеПредприятие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Головное предприятие</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Охотхозяйства</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <choiceParameters>
+    <name>Отбор.ЭтоГоловноеПредприятие</name>
+    <value xsi:type="core:BooleanValue">
+      <value>true</value>
+    </value>
+  </choiceParameters>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

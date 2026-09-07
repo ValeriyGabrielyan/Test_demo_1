@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ece59c17-7d60-4f27-9d78-9d0a8f4a3554">
+  <producedTypes>
+    <objectType typeId="e5667e22-ab5f-4895-80cb-2a7bdeb6b632" valueTypeId="3305ed97-40b3-4f4d-b95b-5a9da5194e84"/>
+    <managerType typeId="58c55636-e60a-45b3-ac3e-d0e42306f605" valueTypeId="09dc48cc-0860-4b7d-8507-5e8570949837"/>
+  </producedTypes>
+  <name>ПоискИЗаменаДублирующихсяЭлементов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поиск и замена дублирующихся элементов справочников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПоискИЗаменаДублирующихсяЭлементов.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="ec04de8c-1be1-4130-9209-6384f62e8e35">
+    <name>ОтключатьКонтрольЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отключать контроль записи</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6d562438-f0fd-4750-9208-f0aac10ad52f">
+    <name>ВыполнятьВТранзакции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнять в транзакции</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="698f26d8-0416-4524-84fe-250056762a9a">
+    <name>ДопустимоеРазличиеСлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Допустимое различие слов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b5f9edb4-eeeb-4960-95c8-c54e804cfdd0">
+    <name>ПостроительОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Построитель отчета</value>
+    </synonym>
+    <type>
+      <types>ReportBuilder</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c93ce861-893b-4c1d-9946-cf9ec019c4f0">
+    <name>УдалятьЭлементыПослеЗамены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалять элементы после замены</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="167deba3-1d14-48f4-9414-e3a95667efc0">
+    <name>ПослеЗаменыВозвратитсяНаЗакладкуРезультатовПоиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>После замены возвратится на закладку результатов поиска</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1abfe286-bb20-4014-8586-d97b1e080c7f">
+    <name>ЗадаватьВопросПередНачаломЗамены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задавать вопрос перед началом замены</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="97445869-30df-4ce4-b8e3-5e6e0b79df31">
+    <name>УведомлятьПользователяОбОкончанииЗамены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомлять пользователя об окончании замены</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="098844f5-6694-4f73-8a21-ac3c8f187fab">
+    <name>ПредлагатьЗаменятьЭлементыПриВыбореПравильного</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предлагать заменять элементы при выборе правильного</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="3eb6f891-c9eb-4663-a377-d5207ff820b7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="ae3ee275-4f6e-413e-9f65-4e238233196c">
+    <name>ЭлементСправочника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Элемент справочника</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="39923162-1ad1-4310-bf21-fbfcba4c8f8d">
+    <name>ЭлементСправочникаПометкаНаУдаление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Элемент справочника пометка на удаление</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:DataProcessor>

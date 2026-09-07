@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4affcb5b-e157-4b68-97c6-870392971793">
+  <producedTypes>
+    <objectType typeId="e2d2ac50-f05c-4a62-a060-9bc81637808a" valueTypeId="9fa87db9-1be8-48de-b593-70fb1384f642"/>
+    <refType typeId="dfae8696-dd44-4431-afb9-200dae3b21d5" valueTypeId="f571a060-8df9-4bac-a95b-163cfec91a7a"/>
+    <selectionType typeId="69bc39ec-ace9-422d-89f5-70c949e51c31" valueTypeId="0f171da5-9331-4389-8081-a3e706b9467d"/>
+    <listType typeId="d35ad441-93b9-4370-821b-14e0d3828496" valueTypeId="16152dd4-a0c3-433e-b0ec-5bde7b9ee0f8"/>
+    <managerType typeId="ed187b62-15e5-4831-972c-8d666ba620e5" valueTypeId="756b4578-a8dc-4539-804d-b784ea6c317e"/>
+  </producedTypes>
+  <name>СезоныОхоты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сезоны охоты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СезоныОхоты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СезоныОхоты.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.СезоныОхоты.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="bd9c8a76-33a4-4c85-b753-c3ec3b2a2e9a">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="25313ecf-f623-49f9-b743-d21ff3452c55">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0176cefc-e350-42d1-bc20-1239a05b133a">
+    <name>СезонЗакрыт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сезон закрыт</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="ddbde245-6d8b-4681-98b0-6f8b6875ce96">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f4ef55ef-0d06-409e-b233-daef0e647a10">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

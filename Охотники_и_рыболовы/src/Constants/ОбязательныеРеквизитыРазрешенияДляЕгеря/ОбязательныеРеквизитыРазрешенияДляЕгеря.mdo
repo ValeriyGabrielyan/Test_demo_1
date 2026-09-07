@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="183d8337-9b5b-4536-b0ab-b8b5d2197e51">
+  <producedTypes>
+    <managerType typeId="b1731fd3-cb55-42e7-857a-1de85893d980" valueTypeId="a50f9f6e-a3c7-49cb-b355-6b910afd494c"/>
+    <valueManagerType typeId="bc2432e0-b315-4878-8e97-5bdecaf6ce03" valueTypeId="143c944e-79dc-4e9d-9bcc-0c0b42e70e35"/>
+    <valueKeyType typeId="1fd5e616-4fe2-51d3-bf97-9eedba801050" valueTypeId="ce2e1553-970b-584a-9e66-1177982223d8"/>
+  </producedTypes>
+  <name>ОбязательныеРеквизитыРазрешенияДляЕгеря</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обязательные реквизиты разрешения для егеря</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаНастройкиОбязательныхРеквизитов</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

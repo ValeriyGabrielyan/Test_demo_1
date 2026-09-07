@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c872a0e-e1a5-47fe-ba94-365a7879968f">
+  <name>ОткрытиеСезона</name>
+  <synonym>
+    <key>ru</key>
+    <value>Открытие сезона</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.УстановкаСезонаОхоты</content>
+  <content>Document.УстановкаОбщихКвот</content>
+  <content>Document.УстановкаОграниченийИЦен</content>
+  <content>Catalog.ПроизводственныеКалендари</content>
+  <content>Document.УстановкаКвотНаОхотхозяйство</content>
+  <content>Document.УстановкаНеучтеннойДичи</content>
+  <parentSubsystem>Subsystem.Сервис</parentSubsystem>
+</mdclass:Subsystem>

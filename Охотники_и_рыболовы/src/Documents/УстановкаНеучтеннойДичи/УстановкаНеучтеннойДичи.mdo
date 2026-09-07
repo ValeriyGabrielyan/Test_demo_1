@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="817fefd5-caeb-4694-b7ac-e8e304384653">
+  <producedTypes>
+    <objectType typeId="ec7983b1-3671-4402-952b-c5806f8b9e13" valueTypeId="5bfabc4b-2e3e-4572-9275-1751fed83f67"/>
+    <refType typeId="58ffe45a-1411-4c74-b78f-e3f112534263" valueTypeId="97a19a50-53e8-46c1-8942-8887753bcf95"/>
+    <selectionType typeId="34367601-13aa-4244-89b9-900c8723d5b3" valueTypeId="1879073a-7cd1-4199-aa8c-76c21e7f497b"/>
+    <listType typeId="4f22e844-836b-4ead-bff7-0ccfd52eaac5" valueTypeId="7c6a2d25-394d-4065-989b-f5f7d833fe41"/>
+    <managerType typeId="7e19457c-2988-44f0-8352-38880730ddbf" valueTypeId="335f832a-4514-49c1-bbd8-1595a2881dfc"/>
+  </producedTypes>
+  <name>УстановкаНеучтеннойДичи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка неучтенной дичи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УстановкаНеучтеннойДичи.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.УстановкаНеучтеннойДичи.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>InformationRegister.Ограничение</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="afbdc951-3aec-41f6-a9aa-d365a00a848a">
+    <name>СезонОхоты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сезон охоты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СезоныОхоты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="9397558e-c8e2-44ff-bf29-0bf2e8c2e32e">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="ca25a082-cb94-4c34-83c0-36ff5ac4d6bc">
+    <producedTypes>
+      <objectType typeId="18e4ce34-759b-46ff-8667-d5aec5b2e8d5" valueTypeId="7c99eda3-dcf9-4957-b4a7-eea32b2badea"/>
+      <rowType typeId="e1ff2a89-77eb-4d29-aa69-a2d01383988d" valueTypeId="b6cde8aa-52cd-4b8e-996e-9f9c7814db3d"/>
+    </producedTypes>
+    <name>НеучтеннаяДичь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неучтенная дичь</value>
+    </synonym>
+    <attributes uuid="b5954468-63ca-43f8-aafc-f97a0b87cc37">
+      <name>Охотхозяйство</name>
+      <synonym>
+        <key>ru</key>
+        <value>Охотхозяйство</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Охотхозяйства</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameters>
+        <name>Отбор.ЧленствоККОООР</name>
+        <value xsi:type="core:BooleanValue">
+          <value>true</value>
+        </value>
+      </choiceParameters>
+      <quickChoice>Use</quickChoice>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="ce08f87e-a77e-4730-b7f7-fcc9ea73818a">
+      <name>Дичь</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дичь</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Дичь</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <quickChoice>Use</quickChoice>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+  </tabularSections>
+  <templates uuid="a5652376-fc71-492c-bce7-4365a8caffbb">
+    <name>УчетДляПечати</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учет для печати</value>
+    </synonym>
+  </templates>
+  <templates uuid="36d6967f-fbf6-42a1-b548-fc1bc33758dd">
+    <name>Учет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учет</value>
+    </synonym>
+  </templates>
+</mdclass:Document>

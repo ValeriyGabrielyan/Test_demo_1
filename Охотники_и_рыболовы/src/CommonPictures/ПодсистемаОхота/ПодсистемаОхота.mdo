@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b59bf541-e0a7-42a9-a5cb-22ca052cae3f">
+  <name>ПодсистемаОхота</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подсистема охота</value>
+  </synonym>
+  <transparentPixel>
+    <x>19</x>
+    <y>16</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

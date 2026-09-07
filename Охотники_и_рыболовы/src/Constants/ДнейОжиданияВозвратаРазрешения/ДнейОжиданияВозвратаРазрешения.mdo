@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7cfbf0b8-170c-471e-8686-eabf64da97f8">
+  <producedTypes>
+    <managerType typeId="65991685-bc82-48d5-8db6-34f2b3d2cdb1" valueTypeId="bb7fe057-afee-43cb-a297-07eedd9c7f13"/>
+    <valueManagerType typeId="a82d981c-48cd-4350-aa47-f60a42036391" valueTypeId="a602cbab-7a1a-4b90-8650-b0089a97170c"/>
+    <valueKeyType typeId="31335fd1-1d07-58cf-a04a-763ad4ee3850" valueTypeId="867724fb-3ee5-5b89-951c-b4f866e51f3c"/>
+  </producedTypes>
+  <name>ДнейОжиданияВозвратаРазрешения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дней ожидания возврата разрешения</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>2</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

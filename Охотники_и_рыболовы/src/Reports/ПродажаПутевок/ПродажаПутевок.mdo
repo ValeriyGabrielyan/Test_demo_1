@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3fcd24ab-a21a-4e4f-876f-432450143061">
+  <producedTypes>
+    <objectType typeId="1bcd482d-fef0-485d-8a3b-75a2695c0b68" valueTypeId="efb3b3d2-36d7-4b2b-b3f4-d06f20795b05"/>
+    <managerType typeId="345e4e46-9ad1-4ff9-b32c-2af5be30604a" valueTypeId="df07bf27-0854-4181-8eae-dacd592b4188"/>
+  </producedTypes>
+  <name>ПродажаПутевок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажа путевок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ПродажаПутевок.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ПродажаПутевок.Template.ПродажаПутевок</mainDataCompositionSchema>
+  <attributes uuid="c6f4f427-fb89-429a-af05-c138bf0e0da4">
+    <name>СводныйОтчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сводный отчет</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="29c7a26d-fb1f-4c55-9677-2b333bf04592">
+    <name>ОсновнаяОрганизация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Охотхозяйства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="379799e3-50ef-4b87-82d5-8f7d269bec14">
+    <name>МестоОхоты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место охоты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Охотхозяйства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5d89e960-15cc-48b1-9cc1-6deb73521089">
+    <name>ПериодОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период отчета</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b7b37459-1f90-409f-b97c-cac6e3694ffe">
+    <name>ВидДичи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид дичи</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОтчетныеВидыДичи</types>
+      <types>CatalogRef.ВидыДичи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="662e2257-56c7-4ae2-a398-0b05e52271f8">
+    <name>ФорматДичи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формат дичи</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b87f49c8-58c5-4e4e-b966-bbedad4eec73">
+    <name>ОтчетПоВидам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет по видам</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="54af2d78-b0af-4b16-ba50-0a456edebbc6">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="352bb106-c9c9-43b1-9c55-08d04b755657">
+    <name>ПродажаПутевок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продажа путевок</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

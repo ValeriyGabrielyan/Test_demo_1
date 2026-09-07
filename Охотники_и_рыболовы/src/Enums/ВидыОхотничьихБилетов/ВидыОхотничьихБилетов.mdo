@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f5b2354-9dc1-4594-aa63-a97567770ab9">
+  <producedTypes>
+    <refType typeId="4a666062-46e7-47e2-9fae-ea5e5765c74a" valueTypeId="326e0258-4b83-475f-91b0-fedb53a87e25"/>
+    <listType typeId="9dc9d3c2-f94d-4275-a481-2b420327146c" valueTypeId="28995fdc-9d9e-4c27-91b1-56b685db0175"/>
+    <managerType typeId="68665d20-bf61-4137-b5fb-61a454e389b4" valueTypeId="43c5fd1f-f987-4887-80cb-fb5ac5afd689"/>
+  </producedTypes>
+  <name>ВидыОхотничьихБилетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды охотничьих билетов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ab8ebc88-5f01-47cf-8751-9ea77b3c497b">
+    <name>ГосБилет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гос билет</value>
+    </synonym>
+    <comment>Охотничий билет Российской Федерации</comment>
+  </enumValues>
+  <enumValues uuid="7e00c17a-d1fa-40d9-b241-ed0259e663fa">
+    <name>ЧленскийБилет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Членский охотничье-рыболовный билет</value>
+    </synonym>
+    <comment>Членский охотничье-рыболовный билет</comment>
+  </enumValues>
+</mdclass:Enum>

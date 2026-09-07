@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ebd7d90b-4218-4d61-a5c3-9ddc4f813a6e">
+  <producedTypes>
+    <refType typeId="cffb65b7-62a8-47b9-b3b2-db03be7d9726" valueTypeId="7ee1e878-eca3-4212-aa09-384e979c73d9"/>
+    <listType typeId="a037a970-4c63-4ecc-be22-df0c7a5f9cba" valueTypeId="c297a0c7-c41c-46bf-8ec3-256cd6a2328d"/>
+    <managerType typeId="a58ab8c2-d1a2-42ef-b83c-949b4b14a826" valueTypeId="d5a2148b-c880-477e-9234-296cd9dcda59"/>
+  </producedTypes>
+  <name>ПричиныНедействительностиБилета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины недействительности билета</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b03e202d-c8c1-4978-9d7a-0d24a8df5046">
+    <name>Утеря</name>
+    <synonym>
+      <key>ru</key>
+      <value>Утеря билета</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a2873ed7-6834-49d9-8e36-5449142469a6">
+    <name>Просрочен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просрочен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="79de1e53-acce-4feb-ad5e-073490349d80">
+    <name>НеУказан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не указан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d28b07be-28cd-44de-92b9-829fa717a7b8">
+    <name>Перерегистрация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перерегистрация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3be7d701-e546-484c-9a2f-e946aec5200f">
+    <name>ЛишенПраваОхоты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лишен права охоты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f5852988-9c72-40d8-b359-98ff578e2581">
+    <name>ИсключенИзСистемыККОООР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исключен из системы ККОООР</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d5b37674-02f2-4f0a-9383-a620f6c8a95c">
+    <name>НеправильноеЗаполнение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неправильное заполнение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6695f6c7-4a7c-4e2d-88a4-0a0ffd18049d">
+    <name>ЗаменаБилета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замена билета</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

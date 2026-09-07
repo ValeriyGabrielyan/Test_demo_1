@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f412d6ee-386b-4b43-b171-34fb7bf1c22e">
+  <name>Охота</name>
+  <synonym>
+    <key>ru</key>
+    <value>Охота</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаОхота</picture>
+  </picture>
+  <content>CommonModule.ОбщегоНазначения</content>
+  <content>SessionParameter.АвторизованныйПользователь</content>
+  <content>SessionParameter.ТекущийПользователь</content>
+  <content>Role.АдминистраторСистемы</content>
+  <content>Role.ПолныеПрава</content>
+  <content>Constant.ТекущийСезон</content>
+  <content>Catalog.Охотники</content>
+  <content>Catalog.СезоныОхоты</content>
+  <content>Catalog.Пользователи</content>
+  <content>Enum.ВидыОхотничьихБилетов</content>
+  <content>DataProcessor.УстановкаСезонаОхоты</content>
+  <content>AccumulationRegister.ОбщиеКвотыНаОхотхозяйство</content>
+  <content>AccumulationRegister.КвотыОхотхозяйства</content>
+  <content>Role.Пользователь</content>
+  <content>Enum.ПричиныНедействительностиБилета</content>
+  <content>Catalog.ОрганыВыдачиГосБилетов</content>
+  <content>CommonModule.ОхотаСервер</content>
+  <content>InformationRegister.ОхотничьиБилеты</content>
+  <content>InformationRegister.КонтактнаяИнформация</content>
+  <content>CommonPicture.ПодсистемаОхота</content>
+  <subsystems>Справочники</subsystems>
+  <subsystems>Документы</subsystems>
+</mdclass:Subsystem>

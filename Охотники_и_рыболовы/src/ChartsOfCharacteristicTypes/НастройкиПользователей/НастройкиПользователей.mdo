@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4102c9f0-b362-4c03-abb3-5a615a1ac477">
+  <producedTypes>
+    <objectType typeId="2a56f6ca-1af8-4018-a57e-91ea0c2a8cd2" valueTypeId="e67dbd3e-8094-4d1b-9c3d-4307de94e382"/>
+    <refType typeId="8fc637b1-cc1f-49fe-a7ae-6113335d4d38" valueTypeId="af41d4b7-6ff4-4f3f-ac6d-4cf74753ff45"/>
+    <selectionType typeId="032067cd-d583-4ae9-84a4-beb91732dbea" valueTypeId="c3a9cef2-bbf2-4dee-aced-50191940c402"/>
+    <listType typeId="ad18400a-8c3d-4b4f-866d-33327be7d5e0" valueTypeId="0bdf511c-a689-4da3-a572-184b6b2798c9"/>
+    <managerType typeId="ff484764-bb2f-4c07-8776-5dc3c23055b9" valueTypeId="fa789adc-647a-4fe4-8e51-86fe526cdb74"/>
+    <containerType typeId="2c7fa6c4-eb79-41d8-89ff-e7f617ba175f" valueTypeId="550bbe69-77dc-4247-92ca-9dd6175f1a44"/>
+  </producedTypes>
+  <name>НастройкиПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки пользователей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.НастройкиПользователей.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.НастройкиПользователей.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>CatalogRef.Охотхозяйства</types>
+    <types>Boolean</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>Number</types>
+    <types>CatalogRef.Пользователи</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>50</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="59d9840c-60ab-46ca-9205-47f8c08eede9">
+      <name>ОсновнаяОрганизация</name>
+      <description>Основная организация</description>
+      <code>000000001</code>
+      <type>
+        <types>CatalogRef.Охотхозяйства</types>
+      </type>
+    </items>
+    <items id="eadc422d-eef5-47c5-afdc-dcac8777fc11">
+      <name>ОсновнойОтветственный</name>
+      <description>Основной ответственный</description>
+      <code>000000002</code>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

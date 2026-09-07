@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="767c2ffb-7afa-496e-b8b4-a79a70fa9b51">
+  <producedTypes>
+    <selectionType typeId="13830051-06b7-4d46-98cb-bb1992055062" valueTypeId="9e75d82e-4647-4b77-8db2-afffcc9a987e"/>
+    <listType typeId="5ff71987-268b-499b-a993-98476bb08bf6" valueTypeId="7bfec28b-dc30-4f9d-98fa-cc88b9ec60c3"/>
+    <managerType typeId="c5d3a5c0-963e-4546-b035-fa6b4f02d806" valueTypeId="961626c9-acad-4e5f-a257-56c92b4f4381"/>
+    <recordSetType typeId="54e94e0b-99e4-4ce7-9c39-0c08ed2f0c91" valueTypeId="d933c8ff-4d65-49be-ab82-d50bd9b1b941"/>
+    <recordKeyType typeId="1c075d9e-b228-49e5-8567-2f77614d3b7f" valueTypeId="20968b64-d25e-419b-a539-3cabed14f40c"/>
+    <recordType typeId="b516d5be-0ea9-41d0-b5d4-a7727aa5e511" valueTypeId="7079429d-6cbf-4511-9794-d7e1ab1eff9d"/>
+  </producedTypes>
+  <name>ОбщиеКвотыНаОхотхозяйство</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общие квоты на охотхозяйство</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="93cb0cfa-406f-47ad-a569-8f64c51904ef">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="93b7b062-5b80-490e-bea3-eb29abadb6b9">
+    <name>СезонОхоты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сезон охоты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СезоныОхоты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="0a2bcf52-2b68-4d2f-a334-8e765a411994">
+    <name>Охотхозяйство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Охотхозяйство</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Охотхозяйства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="d3043967-d875-4e57-917f-74e40927263c">
+    <name>ВидДичи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид дичи</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыДичи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

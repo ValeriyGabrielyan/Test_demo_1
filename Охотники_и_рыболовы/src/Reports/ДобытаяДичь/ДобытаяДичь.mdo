@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3160838-d4c7-4a36-929d-fe08f23885f1">
+  <producedTypes>
+    <objectType typeId="85abad4f-94b7-4621-a2b3-084c08731f63" valueTypeId="ff6df3a4-6876-4192-9773-9d5913ea90ad"/>
+    <managerType typeId="3d54e451-ff49-4fde-af76-3f82faf2dd37" valueTypeId="1ca70558-b6a1-492c-89cc-6ebd8cc6ab98"/>
+  </producedTypes>
+  <name>ДобытаяДичь</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добытая дичь</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ДобытаяДичь.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ДобытаяДичь.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <attributes uuid="73f81435-ec93-4558-b314-1241641215a6">
+    <name>ОсновнаяОрганизация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Охотхозяйства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="527bc29c-d972-492a-bb0e-3c7b4c022532">
+    <name>ПериодОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период отчета</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d311a750-2617-4b9e-a054-d6df31779112">
+    <name>ДобычаПо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добыча по</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="005734cd-0d8c-46c5-8c7e-af30ddf07468">
+    <name>ФорматДаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формат даты</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9f405ce8-cab5-443c-a30f-05de7a6deb51">
+    <name>Подробно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подробно</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="faafa1a5-2c38-4848-9385-4c02a6acf246">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="e7c0d115-cedc-44de-952f-f96a1a5a11b3">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

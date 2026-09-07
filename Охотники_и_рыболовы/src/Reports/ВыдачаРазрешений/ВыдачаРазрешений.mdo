@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12beef3e-a46c-465c-8c58-dae941f93c20">
+  <producedTypes>
+    <objectType typeId="36ac10aa-f943-4562-9c7a-e15a539cebf7" valueTypeId="dab98489-2d65-4be4-abc1-414ae080ef42"/>
+    <managerType typeId="a1a5683d-9f6e-4649-9fb5-26a8ff725243" valueTypeId="f7bb86de-3044-4f63-b163-95d598ba65c1"/>
+  </producedTypes>
+  <name>ВыдачаРазрешений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выдача разрешений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ВыдачаРазрешений.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ВыдачаРазрешений.Template.ВыдачаРазрешений</mainDataCompositionSchema>
+  <attributes uuid="1cc4a976-1a9f-4d74-aeb2-f1223f5dbf6d">
+    <name>ОсновнаяОрганизация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Охотхозяйства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="19704d1f-3f17-4eac-87fd-2e44df4e5ade">
+    <name>МестоОхоты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Место охоты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Охотхозяйства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8446c753-2aa7-459d-b04c-36005054610a">
+    <name>ПериодОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период отчета</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9c930a8a-c4e4-48a3-9706-00430c9dc79d">
+    <name>ФорматОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формат отчета</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bfb612f2-92a3-45a1-ab99-117a9dcb0170">
+    <name>ФорматДичи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формат дичи</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="050231fc-9d84-4c9f-9920-3910b5d8d53e">
+    <name>ВидДичи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид дичи</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОтчетныеВидыДичи</types>
+      <types>CatalogRef.ВидыДичи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="add38eae-4d5d-4bf6-94f1-94b8d88855d6">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="9e7f2fc9-f5a1-426a-a832-2334be5a00c4">
+    <name>ВыдачаРазрешений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдача разрешений</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="862fc534-5fbe-4ae2-9dd0-dc160293e29c">
+  <producedTypes>
+    <objectType typeId="3982ec59-c601-4e54-ba1e-dfcf48206703" valueTypeId="9d52d891-9429-405f-9c40-8e295c3f8971"/>
+    <refType typeId="aa574730-ddaa-43a0-bf1e-12e3cbd0b28d" valueTypeId="aa144bfe-d320-4d5d-8308-123743a46be5"/>
+    <selectionType typeId="3afdf89f-5186-4152-8c73-e318df5370b3" valueTypeId="8f1a78c2-3a47-4836-8c59-52ba189b1f63"/>
+    <listType typeId="4bce1a7b-c9b6-4037-a04d-77ac0b92ebdd" valueTypeId="87955202-16ff-4473-aa76-cf7cd28eb84a"/>
+    <managerType typeId="4f6c0f72-9570-428d-9777-822507ea6611" valueTypeId="0d3f10b9-1c60-470f-af96-7eb115516b9c"/>
+  </producedTypes>
+  <name>УстановкаОбщихКвот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка общих квот</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УстановкаОбщихКвот.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.УстановкаОбщихКвот.Form.ФормаДокумента</defaultObjectForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>AccumulationRegister.ОбщиеКвотыНаОхотхозяйство</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="86c89b44-628c-48ee-b2e7-df51f63ae1f3">
+    <name>СезонОхоты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сезон охоты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СезоныОхоты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="32f3af9b-5552-4cc6-8e21-c827243b5299">
+    <name>Охотхозяйство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Охотхозяйство</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Охотхозяйства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ГоловноеПредприятие</name>
+      <value xsi:type="core:BooleanValue">
+        <value>true</value>
+      </value>
+    </choiceParameters>
+    <quickChoice>Use</quickChoice>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8280d9e6-e2e6-4d89-89b1-feb964d10f05">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="79cead31-0c84-4bda-93ff-bb25c1010b53">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="01df75a5-33af-41d1-b631-731b782aa7c1">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="1c241d9f-2140-4e24-8040-a76c2bde77f0">
+    <producedTypes>
+      <objectType typeId="96e57f9d-ced2-4418-ab11-c0c1a7cbb070" valueTypeId="c0fdd915-75c2-4b58-81ef-c21024adaccb"/>
+      <rowType typeId="94c2a037-1c51-4eb0-a771-8eec33709dbf" valueTypeId="f61889a1-11d6-4b8d-8f19-eabb73491283"/>
+    </producedTypes>
+    <name>СоставДичи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав дичи</value>
+    </synonym>
+    <attributes uuid="98ed3bd7-176d-4d6c-b180-6a259bf52bef">
+      <name>ВидДичи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид дичи</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыДичи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <quickChoice>Use</quickChoice>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="6b837508-1e88-456c-9b93-412ce9b1ab8b">
+      <name>ОбщееКоличество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Общее количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>6</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

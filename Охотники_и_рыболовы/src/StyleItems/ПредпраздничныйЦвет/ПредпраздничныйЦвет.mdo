@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0b02519-35f2-4b8d-b581-bd46b2ebef58">
+  <name>ПредпраздничныйЦвет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предпраздничный цвет</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorRef">
+      <color>Web.DarkBlue</color>
+    </value>
+  </value>
+</mdclass:StyleItem>

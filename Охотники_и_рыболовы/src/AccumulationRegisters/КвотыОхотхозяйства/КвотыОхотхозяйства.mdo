@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ca04b67-ea4e-4670-967e-ed40f3c1ab77">
+  <producedTypes>
+    <selectionType typeId="646c4430-24f8-4097-93ca-14c0711aa8e0" valueTypeId="6cecf4e5-5e2a-4676-a17d-566a89240ca1"/>
+    <listType typeId="d2aa7921-6b48-4432-b0ef-79d1a0683656" valueTypeId="6260c63b-903f-4d3f-ab20-42eb7dd72235"/>
+    <managerType typeId="83a97e44-265c-4793-9fb7-31d9987249d4" valueTypeId="f26ed5c2-1d84-45e8-8684-19b2b3dd0496"/>
+    <recordSetType typeId="28498ca0-67d6-4b42-97ef-13581dc6eadf" valueTypeId="ccf2bc20-44cf-4e5d-9d01-77dfb0447ee0"/>
+    <recordKeyType typeId="7db527aa-b411-401f-9dcc-87550e9d9f6c" valueTypeId="1ce613c8-d837-4990-9526-72096b52f095"/>
+    <recordType typeId="34af044e-f687-41a2-802b-42661640704e" valueTypeId="bfd99207-38d0-410d-894d-d0a80608d596"/>
+  </producedTypes>
+  <name>КвотыОхотхозяйства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Квоты охотхозяйства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="4388121f-ee00-4395-b4ab-d5feba4b345a">
+    <name>КоличествоСвоим</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество своим</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="ca80d568-3514-4309-8def-c9e25771ef41">
+    <name>КоличествоЧужим</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество чужим</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="6120037d-7fea-45c0-a4a3-1a4706c113d7">
+    <name>СезонОхоты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сезон охоты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СезоныОхоты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="f174bca0-b45f-4725-b35f-4255a52729ae">
+    <name>Охотхозяйство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Охотхозяйство</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Охотхозяйства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="fc07ec67-ae45-4efd-a3b7-ed88ef35bdbc">
+    <name>ВидДичи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид дичи</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыДичи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

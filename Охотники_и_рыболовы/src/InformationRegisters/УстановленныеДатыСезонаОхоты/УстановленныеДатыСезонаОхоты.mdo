@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6418d00-56fe-4449-9c4a-30f076d0d18e">
+  <producedTypes>
+    <selectionType typeId="ce45e4ab-b545-4ac4-98e2-050527ae497b" valueTypeId="a2a8edef-a728-433f-a52a-836b52ebb9e0"/>
+    <listType typeId="d237fbcc-6965-4b79-9cbd-628bf1a3b1d7" valueTypeId="1a871d0b-fd63-41bb-8b47-7c707977d8cb"/>
+    <managerType typeId="5de059b4-77fe-4c2c-97c4-4cc9e3d8c5ac" valueTypeId="01641eaf-abbc-4820-b828-c982d637450a"/>
+    <recordSetType typeId="0819cebe-4f09-462d-a13d-1131cacf305f" valueTypeId="f1f72663-418d-49d2-a7db-8947ce96cc58"/>
+    <recordKeyType typeId="e7575c28-6fb0-465f-bb63-614d7429c739" valueTypeId="583ecaa5-f241-4bab-b84a-1ca20a4463ba"/>
+    <recordType typeId="9f3fa58d-057e-43cb-bdb2-ac13ae2e6152" valueTypeId="7393a892-6053-4502-8b65-2157f3119ed4"/>
+    <recordManagerType typeId="1c2559d4-da84-41b1-b346-df129fbb92a3" valueTypeId="7c93af87-a2dd-4937-91c5-8c12ec84860a"/>
+  </producedTypes>
+  <name>УстановленныеДатыСезонаОхоты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установленные даты сезона охоты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="6113a8ab-121b-4b33-ae20-6527caccf6c6">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="48cf3ec9-4c9d-4fcb-9151-8916f692f321">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1cb0395a-7226-48b6-a52b-d180e6f817a8">
+    <name>СезонЗакрыт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сезон закрыт</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1751fbf0-e05c-4f9f-941b-34dbf8a726ec">
+    <name>СезонОхоты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сезон охоты</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СезоныОхоты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

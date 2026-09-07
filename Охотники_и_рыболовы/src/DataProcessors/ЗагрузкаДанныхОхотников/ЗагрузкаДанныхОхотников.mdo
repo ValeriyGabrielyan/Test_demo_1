@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="236410ae-e1a3-42cb-9276-82cf4fce7d2c">
+  <producedTypes>
+    <objectType typeId="7eaf6c28-e6a4-4099-8fc1-3ed87755ce10" valueTypeId="ff295855-f662-4a94-9fd0-a66f0d413aa3"/>
+    <managerType typeId="f19f814e-e16b-4a83-b90b-748086060906" valueTypeId="e999a7fe-7690-43c4-a735-6911cf015ca3"/>
+  </producedTypes>
+  <name>ЗагрузкаДанныхОхотников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка данных охотников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаДанныхОхотников.Form.Форма</defaultForm>
+  <attributes uuid="2755271b-f429-4a31-8621-6df4f7af3d9d">
+    <name>Охотхозяйство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Охотхозяйство</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Охотхозяйства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="2c7d2213-a130-4f6d-828b-432fb5e13a9b">
+    <name>ИмяФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выберите файл</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="964b02ba-1d08-43d6-83f9-ac49f927c5ce">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
