@@ -23,9 +23,6 @@
   <useOrdinaryFormInManagedApplication>true</useOrdinaryFormInManagedApplication>
   <usedMobileApplicationFunctionalities>
     <functionality>
-      <use>true</use>
-    </functionality>
-    <functionality>
       <functionality>OSBackup</functionality>
       <use>true</use>
     </functionality>
@@ -52,7 +49,7 @@
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
-  <compatibilityMode>8.3.6</compatibilityMode>
+  <compatibilityMode>8.5.1</compatibilityMode>
   <languages uuid="4141c669-3420-454d-9b88-7e575cfa4cb8">
     <name>Русский</name>
     <synonym>
